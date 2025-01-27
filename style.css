@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.ios-style-header {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.note-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s;
+}
+
+.note-card:hover {
+  transform: scale(1.02);
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f7f7f7;
+}
+
+.dark-mode .ios-style-header {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+.dark-mode .note-card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
